@@ -9,7 +9,7 @@ const Events = () => {
 };
 
 Events.getLayout = (page: any) => {
-  page;
+  return page;
 };
 
 export default Events;
