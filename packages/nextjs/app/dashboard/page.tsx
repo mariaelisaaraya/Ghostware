@@ -15,7 +15,7 @@ const HappyPath = () => {
 };
 
 HappyPath.getLayout = (page: any) => {
-  page;
+  return page;
 };
 
 export default HappyPath;

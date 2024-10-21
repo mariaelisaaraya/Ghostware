@@ -5,9 +5,14 @@ export const Advantages = () => {
       <div className="flex flex-wrap justify-center md:gap-10">
         <div className="border-solid border-2 border-active rounded-3xl mb-10 p-10 w-[90%]  md:w-[480px]">
           <h4 className="text-h4 mb-10">
-            Prevention of Vote-Buyin  <br /> Control of Duplicate Voting <br /> Data Immutability
-            Enhanced Voter Verification  <br /> Increased Transparency <br /> Real-Time Monitoring
-            Reduced Administrative Errors  <br /> Empowerment of Vulnerable Populations
+            Prevention of Vote-Buying <br />
+            Control of Duplicate Voting <br />
+            Data Immutability <br />
+            Enhanced Voter Verification <br />
+            Increased Transparency <br />
+            Real-Time Monitoring <br />
+            Reduced Administrative Errors <br />
+            Empowerment of Vulnerable Populations
           </h4>
         </div>
       </div>

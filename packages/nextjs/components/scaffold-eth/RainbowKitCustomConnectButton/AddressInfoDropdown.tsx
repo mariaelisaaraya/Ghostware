@@ -23,11 +23,7 @@ type AddressInfoDropdownProps = {
   ensAvatar?: string;
 };
 
-export const AddressInfoDropdown = ({
-  address,
-  ensAvatar,
-  displayName,
-}: AddressInfoDropdownProps) => {
+export const AddressInfoDropdown = ({ address, ensAvatar, displayName }: AddressInfoDropdownProps) => {
   const { disconnect } = useDisconnect();
   const checkSumAddress = getAddress(address);
 
@@ -115,6 +111,7 @@ export const AddressInfoDropdown = ({
               type="button"
               onClick={() => disconnect()}
             >
+              <span className="font-bold">Disconnect</span>
             </button>
           </li>
         </ul>

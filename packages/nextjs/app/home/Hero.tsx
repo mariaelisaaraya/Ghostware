@@ -24,9 +24,7 @@ export const Hero = () => {
         <div className=" ">
           <p className="flex flex-col md:flex-row md:justify-center">
             <button className="bg-active text-white rounded-[50px] px-3 py-2">+Join</button>
-            <span className="bg-lightGreen text-neutral text-sm p-2">
-            Join us to ensure fair elections.
-            </span>
+            <span className="bg-lightGreen text-neutral text-sm p-2">Join us to ensure fair elections.</span>   
           </p>
         </div>
         <div className="text-center flex flex-col justify-around items-center p-4 pt-20">

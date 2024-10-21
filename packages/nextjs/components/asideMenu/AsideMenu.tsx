@@ -1,8 +1,7 @@
 "use client";
 
 import AsideMenuBtn from "./AsideMenuBtn";
-import { BsAward, BsBook, BsJournals, BsSearch, BsStars } from "react-icons/bs";
-import { UnlockEvent } from "~~/app/dashboard/logros/airdrop";
+import { BsBook } from "react-icons/bs"; // Solo BsBook se mantiene
 
 const AsideMenu = () => {
   return (

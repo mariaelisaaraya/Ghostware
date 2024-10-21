@@ -3,8 +3,6 @@ import { BsHeartFill } from "react-icons/bs";
 
 
 export const Footer = () => {
-
-
   return (
     <footer className="p-6 md:py-10 md:px-20">
       <div className="flex flex-wrap justify-between">
