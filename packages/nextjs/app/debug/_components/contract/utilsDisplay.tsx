@@ -30,6 +30,7 @@ export const displayTxResult = (
         return "Ξ" + formatEther(displayContent);
       }
     } catch (e) {
+      console.error("Error al convertir displayContent:", e); // O loguear el error.
       return "Ξ" + formatEther(displayContent);
     }
   }

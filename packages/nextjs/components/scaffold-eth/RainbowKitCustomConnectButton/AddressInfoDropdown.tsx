@@ -5,8 +5,6 @@ import { getAddress } from "viem";
 import { Address } from "viem";
 import { useDisconnect } from "wagmi";
 import {
-  ArrowLeftOnRectangleIcon,
-  ArrowTopRightOnSquareIcon,
   ArrowsRightLeftIcon,
   CheckCircleIcon,
   ChevronDownIcon,
@@ -21,7 +19,6 @@ const allowedNetworks = getTargetNetworks();
 
 type AddressInfoDropdownProps = {
   address: Address;
-  blockExplorerAddressLink: string | undefined;
   displayName: string;
   ensAvatar?: string;
 };
@@ -30,7 +27,6 @@ export const AddressInfoDropdown = ({
   address,
   ensAvatar,
   displayName,
-  blockExplorerAddressLink,
 }: AddressInfoDropdownProps) => {
   const { disconnect } = useDisconnect();
   const checkSumAddress = getAddress(address);
@@ -119,7 +115,6 @@ export const AddressInfoDropdown = ({
               type="button"
               onClick={() => disconnect()}
             >
-              <ArrowLeftOnRectangleIcon className="h-6 w-4 ml-2 sm:ml-0" /> <span>Disconnect</span>
             </button>
           </li>
         </ul>
